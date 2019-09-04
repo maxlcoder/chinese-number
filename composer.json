@@ -1,0 +1,21 @@
+{
+    "name": "maxlcoder/chinese-number",
+    "description": "translate Arabic numerals to chinese number",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "maxlcoder",
+            "email": "liurenlin77@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.1.0",
+        "phpunit/phpunit": "7.5.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Maxlcoder\\ChineseNumber\\": "src/"
+        }
+    }
+}
